@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Lang" content="ru" />
+
+    <meta name="viewport" content="user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>alabuga test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/info.css"/>
+    <link rel="stylesheet" type="text/css" href="css/person-info.css"/>
+    <link rel="stylesheet" type="text/css" href="css/messages.css"/>
+    <link rel="stylesheet" type="text/css" href="css/actions.css"/>
+    <link rel="stylesheet" type="text/css" href="css/persons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/interview.css"/>
+</head>
+<body>
+    <div class="flex-col">
+        <div class="flex-row">
+            <div id="messages" class="messages"></div>
+            <div class="flex-col">
+                <div id="info" class="info">
+                    <div class="block">
+                        <span class="label">Дней прошло:</span>
+                        <span class="days value">0</span>
+                    </div>
+                    <div class="block">
+                        <span class="label">Агенство нанимали:</span>
+                        <span class="agency value">0</span>
+                    </div>
+                    <div class="block">
+                        <span class="label">Итого расходов:</span>
+                        <span class="total value">0</span>
+                    </div>
+                </div>
+                <div id="persons" class="persons"></div>
+            </div>
+        </div>
+
+        <div id="actions" class="actions"></div>
+    </div>
+
+    <div id="person-info" class="person-info">
+        <h2 class="title">Информация <span class="name"></span></h2>
+        <div class="detail"></div>
+        <div class="questions"></div>
+        <div class="exit"><button>Закрыть</button></div>
+    </div>
+    
+
+    <div id="interview" class="person-info interview">
+        <h2 class="title">Собеседование <span class="name"></span></h2>
+        <div class="detail"></div>
+        <div class="tooltip">Задайте до 10 вопросов из списка. Нажмите "Закончить собеседование" чтобы выйти.</div>
+        <div class="questions"></div>
+        <div class="exit"><button>Закончить собеседование</button></div>
+    </div>
+
+</body>
+<script type="text/javascript" data-main="js/index" src="js/lib/require.js"> </script>
+</html>
+ 

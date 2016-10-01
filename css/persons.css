@@ -1,0 +1,18 @@
+.persons{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #000;
+	width: 400px;
+	overflow: auto;
+	flex: 1 0;
+}
+.persons .block{
+	padding: 3px 0; 
+}
+.persons .block .button{
+	margin-right: 5px;
+}
+.persons .block .refuse{
+	margin-left: 5px;
+	color: #f00;
+}

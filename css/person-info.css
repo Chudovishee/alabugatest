@@ -1,0 +1,68 @@
+.person-info{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 600px;
+	margin-top: -300px;
+	margin-left: -300px;
+
+	border: 1px solid #000;
+
+	font-size: 14px;
+	display: none;
+    flex-direction: column;
+    background: #fff;
+}
+.person-info.hide{
+	display: none;
+}
+.person-info.show{
+	display: flex;
+}
+
+.person-info .title{
+	margin: 0;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.person-info .detail{
+	padding: 5px;
+	border-bottom: 1px solid #000;
+}
+.person-info .detail .block{
+	padding: 3px 0;
+}
+.person-info .detail .block .label{
+	display: inline-block;
+	font-weight: bold;
+	width: 200px;
+}
+.person-info .detail .block .value{
+	display: inline-block;
+}
+
+.person-info .questions{
+	padding: 5px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.person-info .questions .block{
+	padding: 3px 0;
+}
+.person-info .questions .block .question,
+.person-info .questions .block .answer{
+	display: inline-block;
+	line-height: 21px;
+}
+.person-info .questions .block .question{
+	width: 200px;
+	font-weight: bold;
+}
+
+.person-info .exit{
+	border-top: 1px solid #000;
+	padding: 5px;
+	text-align: center;
+}
